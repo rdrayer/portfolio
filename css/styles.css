@@ -1,0 +1,38 @@
+body {
+  font-family: monospace;
+}
+
+img.main {
+  float:right;
+  margin-left: 12px;
+  margin-bottom: 10px;
+}
+
+.metext {
+  text-align: justify;
+}
+
+h1.name {
+  font-size: 30px;
+  text-align: center;
+
+}
+
+p.welcome {
+  font-size: 15px;
+  text-align: center;
+}
+
+.column {
+  float: left;
+  width: 300px;
+  margin: auto;
+}
+
+.column img {
+  padding: 3px;
+}
+
+.column p {
+  text-align: center;
+}

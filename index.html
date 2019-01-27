@@ -1,37 +1,61 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
     <title>Roberta's Portfolio</title>
   </head>
   <body>
-    <h1>Roberta Drayer</h1>
-    <img src="img/robertamain.jpg" alt="photo of roberta" height=200 width=300>
-    <h2>About Me</h2>
-      <p>I was born in Olongapo City, Philippines, but have resided in the PNW for most of my life. I grew up in a fairly diverse city, Federal Way, WA along with my four brothers Jhunar, John, Justin and Jason. As kids we often played soccer outside using our apartment's speed bumps as goals. Injuries were abound as you can imagine, playing on concrete and pausing, yelling "CAR", every time we needed to make way for a vehicle about to drive onto our "field". Soccer was the first sport I fell in love with and continue to play today in adult leagues around Portland.</p>
-      <p>After high school I ended up at Washington State University, mostly becuase that's where my best friend got in. The military would have been a likely second choice, coming from a family with a heavy background in it. After a few months in Pullman I found myself yearning for a landscape outside of the Palouse so applied to Western Washington University after my Freshman year. I didn't end up getting into WWU, but moved to Bellingham, WA regardless along with my best friend who had gotten in. There I did a year at their community college and then finally got into the University. I graduated at WWU with a degree in Accounting and International Business, not because I loved the subject matter.</p>
-      <p>I currently reside in beautiful Portland, OR utilizing my degree at a company called Springbrook Software in their support department. I speak to anyone from IT, to city clerks to city accountants on a daily basis answering questions about our software and resolving business cases, however, I recently had a change of heart career-wise and have persued coding for the last year or so. I've been meeting with a mentor at work who is a software engineer, learning c# and sql along with reading/understanding our code base, however, I wanted to take a class that would hold me more accountable, and here I am at Epicodus, taking their part-time evening Intro to Programming class.</p>
-      <div class="me images">
-        <p><strong>About me in photos:</strong></p>
-        <img src="img/soccer.jpg" alt="soccer" height=200 width=300>
-        <p><em>Springbrook soccer team</em></p>
-        <img src="img/cats.jpg" alt="cats" height=200 width=300>
-        <p><em>"Crook" and "Oliver"</em></p>
-        <img src="img/mtn.jpg" alt="mtn" height=200 width=300>
-        <p><em>Summiting Mt. St. Helens</em></p>
+    <div class="container">
+      <div class="jumbotron">
+        <h1 class="name">Roberta Drayer</h1>
+        <blockquote>
+          <p class="welcome">maligayang pagdating!</p>
+        </blockquote>
       </div>
-      <h2>Projects</h2>
-        <p>The following are projects completed at Epicodus:</p>
-          <ul>
-            <li><a href="https://rdrayer.github.io/hello-world/">Hello World</a></li>
-            <p>The infamous "Hello World" page</p>
-            <li><a href="https://rdrayer.github.io/animal-shelter/">Animal Shelter</a></li>
-            <p>A website about an Animal Shelter, run by Alex and I</p>
-            <li><a href="https://rdrayer.github.io/cupcake-shop/">Cupcake Shop</a></li>
-            <p>Cupcakes, what more do you need?</p>
-            <li><a href="https://rdrayer.github.io/workshop_project/">Workshop Project</a></li>
-            <p>A project I completed as a part of a 4-hr workshop at Epicodus</p>
-          </ul>
-
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h2>About Me</h2>
+          </div>
+          <div class="panel-body">
+            <img class="main" src="img/robertamain.jpg" alt="photo of roberta" height=200 width=300>
+            <div class="metext">
+              <p>I was born in Olongapo City, Philippines, but have resided in the PNW for most of my life. I grew up in a fairly diverse city, Federal Way, WA along with my four brothers Jhunar, John, Justin and Jason. As kids we often played soccer outside using our apartment's speed bumps as goals. Injuries were abound as you can imagine, playing on concrete and pausing, yelling "CAR", every time we needed to make way for a vehicle about to drive onto our "field". Soccer was the first sport I fell in love with and continue to play today in adult leagues around Portland.</p>
+              <p>After high school I ended up at Washington State University, mostly becuase that's where my best friend got in. The military would have been a likely second choice, coming from a family with a heavy background in it. After a few months in Pullman I found myself yearning for a landscape outside of the Palouse so applied to Western Washington University after my Freshman year. I didn't end up getting into WWU, but moved to Bellingham, WA regardless along with my best friend who had gotten in. There I did a year at their community college and then finally got into the University. I graduated at WWU with a degree in Accounting and International Business, not because I loved the subject matter.</p>
+              <p>I currently reside in beautiful Portland, OR utilizing my degree at a company called Springbrook Software in their support department. I speak to anyone from IT, to city clerks to city accountants on a daily basis answering questions about our software and resolving business cases, however, I recently had a change of heart career-wise and have persued coding for the last year or so. I've been meeting with a mentor at work who is a software engineer, learning c# and sql along with reading/understanding our code base, however, I wanted to take a class that would hold me more accountable, and here I am at Epicodus, taking their part-time evening Intro to Programming class.</p>
+            </div>
+            <p><strong>In a visual nutshell:</strong></p>
+            <div class="column">
+              <img src="img/soccer.jpg" alt="soccer" height=200 width=300>
+              <p><em>Springbrook soccer team</em></p>
+            </div>
+            <div class="column">
+              <img src="img/cats.jpg" alt="cats" height=200 width=300>
+              <p><em>"Crook" and "Oliver"</em></p>
+            </div>
+            <div class="column">
+              <img src="img/mtn.jpg" alt="mtn" height=200 width=300>
+              <p><em>Summiting Mt. St. Helens</em></p>
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h2>Coding Projects</h2>
+          </div>
+          <div class="panel-body">
+              <ul>
+                <li><a href="https://rdrayer.github.io/hello-world/">Hello World</a></li>
+                <p>A classic "Hello World" page</p>
+                <li><a href="https://rdrayer.github.io/animal-shelter/">Animal Shelter</a></li>
+                <p>A website about an Animal Shelter, run by Alex and I</p>
+                <li><a href="https://rdrayer.github.io/cupcake-shop/">Cupcake Shop</a></li>
+                <p>Cupcakes, what more do you need to know?</p>
+                <li><a href="https://rdrayer.github.io/workshop_project/">Workshop Project</a></li>
+                <p>A project I completed as a part of a 4-hr workshop at Epicodus</p>
+              </ul>
+          </div>
+        </div>
+    </div>
   </body>
 </html>
