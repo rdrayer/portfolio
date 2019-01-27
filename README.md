@@ -18,14 +18,12 @@ No known bugs yet.
 
 ## Support and contact details
 
-If you have any questions or issues, please refer to the contact tab on the page.
+If you have any questions or issues, please me at robertadrayer@gmail.com.
 
 ## Technologies Used
 
 HTMl and CSS via Atom and some assistance via Google :)
 
 ### License
-
-N/A
 
 Copyright (c) 2019 Roberta Drayer
